@@ -1,16 +1,84 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    background-color: #f5f5f5;
+    
+}
+.header{
+    background-color:#011e29 ;
+    color: white;
+ 
+  padding-left: 50%;
+ padding-top: 20px;
+ padding-bottom: 20px;
+    
+}
+.latest-news-section{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+    height: 40vh;
+    
+    
+}
+
+.main{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 10px;
+}
+
+.pictorial-news-section{
+    border: 1px solid black;
+    margin: 5px;
+    padding: 5px;
+    width: 20%;
+    
+}
+
+.container{
+    display: flex;
+}
+
+
+
+
+
+    </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    
+    <div class="header">
+        <b>Shaw's News</b>
+    </div>
+    <div class="container">
+    <div class="latest-news-section lat">
+        <h2 >Latest News Articles</h2>
+        <ul>
+            <li>Article 1</li>
+            <li>Article 2</li>
+            <li>Article 3</li>
+        </ul>
+    </div>
 
+    <div class="main">
+        <h2 style="text-align: center;"><b>Main Article</b></h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus, minima placeat molestias rem tenetur fugit nesciunt officiis quae dignissimos esse?</p>
+    </div>
+
+    <div class="pictorial-news-section ">
+        <h2 style="text-align: center;">Pictorial News</h2>
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/delhi_rains_1674974112847_1674981888135_1674981888135.jpeg " width="100px" alt="Delhi rain">
+
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/ADANI-INDIA-GAUTAM-ADANI-0_1675011651023_1675011651023_1675011672003_1675011672003.JPG"width="100px" alt="Adani">
+
+        <img src="https://images.hindustantimes.com/img/2023/01/29/550x309/FRANCE-REFORM-PENSIONS-31_1675022359706_1675022359706_1675022383851_1675022383851.JPG" width="100px"alt="Frence reform">
+    </div>
+</div>
 </body>
-
 </html>
